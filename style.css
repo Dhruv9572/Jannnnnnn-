@@ -1,0 +1,33 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to top right, #ffe0e9, #ffffff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.wife-text {
+  font-size: 1.5em;
+  line-height: 1.6em;
+  color: #d60087;
+  margin-top: -50px;
+}
+
+#lockToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
